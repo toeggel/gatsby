@@ -23,4 +23,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_PAT: ${{ secrets.GITHUB_API_KEY }}
-          BUILD_DIR: "docs/"
+          BUILD_DIR: "public/"
