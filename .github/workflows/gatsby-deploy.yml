@@ -2,7 +2,7 @@ on:
   push:
     branches:
       - main
-name: build gatsby
+name: Build and Deploy Gatsby
 jobs:
   build_gatsby:
     name: build
